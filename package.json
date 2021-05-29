@@ -2,7 +2,7 @@
     "name": "wiz-lang",
     "displayName": "Wiz Language Support",
     "description": "Syntax highlighting for the Wiz Language",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "publisher": "danl2620",
     "repository": "https://github.com/Danl2620/wiz-lang-ext",
     "engines": {
