@@ -2,7 +2,7 @@
     "name": "wiz-lang",
     "displayName": "Wiz Language Support",
     "description": "Syntax highlighting for the Wiz Language",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "publisher": "danl2620",
     "engines": {
         "vscode": "^1.56.0"
@@ -11,16 +11,25 @@
         "Programming Languages"
     ],
     "contributes": {
-        "languages": [{
-            "id": "wiz",
-            "aliases": ["wiz", "wiz"],
-            "extensions": ["wiz"],
-            "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "wiz",
-            "scopeName": "source.wiz",
-            "path": "./syntaxes/wiz.tmLanguage"
-        }]
+        "languages": [
+            {
+                "id": "wiz",
+                "aliases": [
+                    "wiz",
+                    "wiz"
+                ],
+                "extensions": [
+                    "wiz"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "wiz",
+                "scopeName": "source.wiz",
+                "path": "./syntaxes/wiz.tmLanguage"
+            }
+        ]
     }
 }
