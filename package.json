@@ -1,8 +1,9 @@
 {
     "name": "wiz-lang",
-    "displayName": "wiz-lang",
-    "description": "Wiz Language Support",
+    "displayName": "Wiz Language Support",
+    "description": "Syntax highlighting for the Wiz Language",
     "version": "0.1.0",
+    "publisher": "danl2620",
     "engines": {
         "vscode": "^1.56.0"
     },
