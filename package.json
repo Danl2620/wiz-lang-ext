@@ -4,6 +4,7 @@
     "description": "Syntax highlighting for the Wiz Language",
     "version": "0.1.1",
     "publisher": "danl2620",
+    "repository": "https://github.com/Danl2620/wiz-lang-ext",
     "engines": {
         "vscode": "^1.56.0"
     },
